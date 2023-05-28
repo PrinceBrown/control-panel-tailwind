@@ -20,62 +20,66 @@
 
 
 
-<div class="rounded shadow ">
+    <div class="rounded shadow p-4">
 
         <div class="my-3 text-cente ml-2 py-4">
             <h2 class="text-xs text-gray-700 font-semibold">System Control Panel</h2>
         </div>
-        
-        
-        
-        
+
+
+
+
         <div class="stats shadow stats-vertical lg:stats-horizontal w-full">
-        
+
             <div class="stat">
                 <div class="stat-figure text-primary">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                        class="inline-block w-8 h-8 stroke-current">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z">
-                        </path>
-                    </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="inline-block w-8 h-8">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 8v4M12 16h.01"></path>
+            </svg>
+
+
                 </div>
                 <div class="stat-title">Alarm Status</div>
                 <div class="stat-value text-primary">OFF</div>
                 <div class="stat-desc">Since last month</div>
             </div>
-        
+
             <div class="stat">
                 <div class="stat-figure text-secondary">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                        class="inline-block w-8 h-8 stroke-current">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z">
-                        </path>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="inline-block w-8 h-8">
+                        <path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path>
+                        <line x1="12" y1="2" x2="12" y2="12"></line>
                     </svg>
+
                 </div>
                 <div class="stat-title">Power</div>
                 <div class="stat-value text-secondary">OFF</div>
                 <div class="stat-desc">Since last month</div>
             </div>
-        
+
             <div class="stat">
                 <div class="stat-figure text-secondary">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                        class="inline-block w-8 h-8 stroke-current">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z">
-                        </path>
-                    </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" class="inline-block w-8 h-8">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M3 12h4l3 8 4-16 3 8h4"></path>
+                </svg>
+
                 </div>
                 <div class="stat-title">Running</div>
                 <div class="stat-value text-secondary">Manual</div>
                 <div class="stat-desc">Since last month</div>
             </div>
-        
+
             <div class="stat">
                 <div class="stat-figure text-secondary">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                         class="inline-block w-8 h-8 stroke-current">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 10V3L4 14h7v7l9-11h-7z">
                         </path>
                     </svg>
                 </div>
@@ -83,32 +87,268 @@
                 <div class="stat-value text-secondary">Running</div>
                 <div class="stat-desc">Since last month</div>
             </div>
-        
-        
+
+
             <div class="stat">
                 <div class="stat-figure text-secondary">
-        
+
                     <div>
-                        
+
                         <div class="w-16 rounded-full">
                             <img
                                 src="https://img.freepik.com/premium-vector/map-with-gps-navigation-pointer-it-finding-location-concept_78072-1011.jpg?w=2000" />
-        
+
                         </div>
                         <div class="stat-desc text-secondary">Last Location</div>
-        
-        
+
+
                     </div>
                 </div>
                 <div class="stat-value">RPM</div>
                 <div class="stat-title">RPM Set Point</div>
-        
+
             </div>
-        
+
         </div>
 
 
-</div>
+
+
+
+
+
+
+
+        <div class="mt-16">
+
+            <div class="mb-5 ml-2">
+                <h3 class="font-semibold text-4xl">Engine Parameters</h3>
+            </div>
+
+
+
+            <div class="grid lg:grid-cols-4 gap-4">
+
+
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
+                    <div class="flex flex-col text-center mb-6">
+                        <h3>Oil</h3>
+                        <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">53 PSI</h4>
+                        <img class="mx-auto max-w-full w-20 h-20" src="img/oil.png">
+                    </div>
+                </div>
+
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
+                    <div class="flex flex-col text-center mb-6">
+                        <h3>RPM</h3>
+                        <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">1260</h4>
+                        <img class="mx-auto max-w-full w-20 h-20" src="img/rpm.png">
+                    </div>
+                </div>
+
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
+                    <div class="flex flex-col text-center mb-6">
+                        <h3>Engine Temp</h3>
+                        <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">168 F</h4>
+                        <img class="mx-auto max-w-full w-20 h-20" src="img/engine-temp.png">
+                    </div>
+                </div>
+
+
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
+                    <div class="flex flex-col text-center mb-6">
+                        <h3>Engine Load</h3>
+                        <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">48%</h4>
+                        <img class="mx-auto max-w-full w-20 h-20" src="img/engine-load.png">
+                    </div>
+                </div>
+
+
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
+                    <div class="flex flex-col text-center mb-6">
+                        <h3>Battery</h3>
+                        <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">14.4 VOL</h4>
+                        <img class="mx-auto max-w-full w-20 h-20" src="img/battery.png">
+                    </div>
+                </div>
+
+
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
+                    <div class="flex flex-col text-center mb-6">
+                        <h3>Fuel Level</h3>
+                        <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">80%</h4>
+                        <img class="mx-auto max-w-full w-20 h-20" src="img/fuel.png">
+                    </div>
+                </div>
+
+
+
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
+                    <div class="flex flex-col text-center mb-6">
+                        <h3>Engine Hours</h3>
+                        <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">1880.8</h4>
+                        <img class="mx-auto max-w-full w-20 h-20" src="img/hours.png">
+                    </div>
+                </div>
+
+
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
+                    <div class="flex flex-col text-center mb-6">
+                        <h3>DEF Level</h3>
+                        <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">79%</h4>
+                        <img class="mx-auto max-w-full w-20 h-20" src="img/level.png">
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="grid lg:grid-cols-2 gap-4 mt-16">
+
+
+                <div>
+                
+                    <div class="mb-5 ml-2">
+                        <h3 class="font-semibold text-4xl">Pump Parameters</h3>
+                    </div>
+
+                    <div class="grid lg:grid-cols-2 gap-4">
+                        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
+                            <div class="flex flex-col text-center mb-6">
+                                <h3>Suction Pressure</h3>
+                                <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">150.1 PSI</h4>
+                                <img class="mx-auto max-w-full w-20 h-20" src="img/pump.png">
+                            </div>
+                        </div>
+                        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
+                            <div class="flex flex-col text-center mb-6">
+                                <h3>Discharge Pressure</h3>
+                                <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">58.3 PSI</h4>
+                                <img class="mx-auto max-w-full w-20 h-20" src="img/pressure.png">
+                            </div>
+                        </div>
+
+                    </div>
+                
+                </div>
+
+               
+             
+
+                <div>
+                
+                    <div class="mb-5 ml-2 flex justify-between">
+                        <h3 class="font-semibold text-4xl">Comms Status</h3>
+                        <span class="badge badge-secondary">Online</span>
+                    </div>
+
+                    <div class="grid lg:grid-cols-3 gap-4">
+                        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
+                            <div class="flex flex-col text-center mb-6">
+                                <h3>Network</h3>
+                                <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">SBD</h4>
+                                <img class="mx-auto max-w-full w-20 h-20" src="img/network.png">
+                            </div>
+                        </div>
+                        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
+                            <div class="flex flex-col text-center mb-6">
+                                <h3>Provider / Carrier</h3>
+                                <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">53 PSI</h4>
+                                <img class="mx-auto max-w-full w-20 h-20" src="img/carrier.png">
+                            </div>
+                        </div>
+                        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
+                            <div class="flex flex-col text-center mb-6">
+                                <h3>Signal Strength</h3>
+                                <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">Good</h4>
+                                <img class="mx-auto max-w-full w-20 h-20" src="img/signal.png">
+                            </div>
+                        </div>
+
+                    </div>
+                
+                </div>
+
+
+ 
+
+
+             
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="mt-16">
+            <div class="mb-5 ml-2">
+                <h3 class="font-semibold text-4xl">Commands</h3>
+            </div>
+
+
+            <div class="grid lg:grid-cols-2 gap-4">  
+
+               <div>
+                <div class="btn">Poll</div>
+                <div class="btn">GPS</div>
+               </div>
+                
+
+
+               <div>
+                <h4><b>Location:</b> 38.15 N of Pecos Texas,US</h4>
+                <p>Last message a few seconds ago</p>
+               </div>
+                
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
 
 
 

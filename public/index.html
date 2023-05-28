@@ -22,9 +22,35 @@
 
     <div class="rounded shadow p-4">
 
-        <div class="my-3 text-cente ml-2 py-4">
-            <h2 class="text-xs text-gray-700 font-semibold">System Control Panel</h2>
+
+
+        <div class="my-16">
+            <!-- <div class="mb-5 ml-2">
+                <h3 class="font-semibold text-4xl">Commands</h3>
+            </div> -->
+        
+        
+            <div class="grid lg:grid-cols-2 gap-4">
+        
+                <div>
+                    <div class="btn btn-primary">Poll</div>
+                    <div class="btn btn-primary">GPS</div>
+                </div>
+        
+        
+        
+                <div>
+                    <h4><b>Location:</b> 38.15 N of Pecos Texas,US</h4>
+                    <p>Last message a few seconds ago</p>
+                </div>
+        
+            </div>
+        
+            <div class="divider"></div>
         </div>
+
+
+
 
 
 
@@ -110,6 +136,99 @@
             </div>
 
         </div>
+
+
+
+
+
+
+
+
+        <div class="grid lg:grid-cols-2 gap-4 mt-16">
+        
+        
+            <div>
+        
+                <div class="mb-5 ml-2">
+                    <h3 class="font-semibold text-4xl">Pump Parameters</h3>
+                </div>
+        
+                <div class="grid lg:grid-cols-2 gap-4">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
+                        <div class="flex flex-col text-center mb-6">
+                            <h3>Suction Pressure</h3>
+                            <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">150.1 PSI</h4>
+                            <img class="mx-auto max-w-full w-20 h-20" src="img/pump.png">
+                        </div>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
+                        <div class="flex flex-col text-center mb-6">
+                            <h3>Discharge Pressure</h3>
+                            <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">58.3 PSI</h4>
+                            <img class="mx-auto max-w-full w-20 h-20" src="img/pressure.png">
+                        </div>
+                    </div>
+        
+                </div>
+        
+            </div>
+        
+        
+        
+        
+            <div>
+        
+                <div class="mb-5 ml-2 flex justify-between">
+                    <h3 class="font-semibold text-4xl">Comms Status</h3>
+                    <span class="badge badge-secondary">Online</span>
+                </div>
+        
+                <div class="grid lg:grid-cols-3 gap-4">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
+                        <div class="flex flex-col text-center mb-6">
+                            <h3>Network</h3>
+                            <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">SBD</h4>
+                            <img class="mx-auto max-w-full w-20 h-20" src="img/network.png">
+                        </div>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
+                        <div class="flex flex-col text-center mb-6">
+                            <h3>Provider / Carrier</h3>
+                            <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">53 PSI</h4>
+                            <img class="mx-auto max-w-full w-20 h-20" src="img/carrier.png">
+                        </div>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
+                        <div class="flex flex-col text-center mb-6">
+                            <h3>Signal Strength</h3>
+                            <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">Good</h4>
+                            <img class="mx-auto max-w-full w-20 h-20" src="img/signal.png">
+                        </div>
+                    </div>
+        
+                </div>
+        
+            </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+     
 
 
 
@@ -231,115 +350,7 @@
 
 
 
-        <div class="grid lg:grid-cols-2 gap-4 mt-16">
-
-
-                <div>
-                
-                    <div class="mb-5 ml-2">
-                        <h3 class="font-semibold text-4xl">Pump Parameters</h3>
-                    </div>
-
-                    <div class="grid lg:grid-cols-2 gap-4">
-                        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
-                            <div class="flex flex-col text-center mb-6">
-                                <h3>Suction Pressure</h3>
-                                <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">150.1 PSI</h4>
-                                <img class="mx-auto max-w-full w-20 h-20" src="img/pump.png">
-                            </div>
-                        </div>
-                        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
-                            <div class="flex flex-col text-center mb-6">
-                                <h3>Discharge Pressure</h3>
-                                <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">58.3 PSI</h4>
-                                <img class="mx-auto max-w-full w-20 h-20" src="img/pressure.png">
-                            </div>
-                        </div>
-
-                    </div>
-                
-                </div>
-
-               
-             
-
-                <div>
-                
-                    <div class="mb-5 ml-2 flex justify-between">
-                        <h3 class="font-semibold text-4xl">Comms Status</h3>
-                        <span class="badge badge-secondary">Online</span>
-                    </div>
-
-                    <div class="grid lg:grid-cols-3 gap-4">
-                        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
-                            <div class="flex flex-col text-center mb-6">
-                                <h3>Network</h3>
-                                <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">SBD</h4>
-                                <img class="mx-auto max-w-full w-20 h-20" src="img/network.png">
-                            </div>
-                        </div>
-                        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
-                            <div class="flex flex-col text-center mb-6">
-                                <h3>Provider / Carrier</h3>
-                                <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">53 PSI</h4>
-                                <img class="mx-auto max-w-full w-20 h-20" src="img/carrier.png">
-                            </div>
-                        </div>
-                        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
-                            <div class="flex flex-col text-center mb-6">
-                                <h3>Signal Strength</h3>
-                                <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">Good</h4>
-                                <img class="mx-auto max-w-full w-20 h-20" src="img/signal.png">
-                            </div>
-                        </div>
-
-                    </div>
-                
-                </div>
-
-
- 
-
-
-             
-
-
-
-        </div>
-
-
-
-
-
-
-
-
-
-
-        <div class="mt-16">
-            <div class="mb-5 ml-2">
-                <h3 class="font-semibold text-4xl">Commands</h3>
-            </div>
-
-
-            <div class="grid lg:grid-cols-2 gap-4">  
-
-               <div>
-                <div class="btn">Poll</div>
-                <div class="btn">GPS</div>
-               </div>
-                
-
-
-               <div>
-                <h4><b>Location:</b> 38.15 N of Pecos Texas,US</h4>
-                <p>Last message a few seconds ago</p>
-               </div>
-                
-            </div>
-
-        </div>
-
+      
 
 
 

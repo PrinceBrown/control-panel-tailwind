@@ -11,7 +11,7 @@
     <!-- <link rel="stylesheet" href="styles.css"> -->
 </head>
 
-<body class="mx-4">
+<body class="mx-4 text-gray-600">
 
 
 
@@ -20,29 +20,57 @@
 
 
         <div class="my-16">
-            <!-- <div class="mb-5 ml-2">
-                <h3 class="font-semibold text-4xl">Commands</h3>
-            </div> -->
-        
-        
-            <div class="grid lg:grid-cols-2 gap-4">
-        
+
+            <div class="md:flex justify-between">
+
+
                 <div>
-                    <div class="btn btn-primary">Poll</div>
-                    <div class="btn btn-primary">GPS</div>
+                    <button class="btn btn-primary gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="inline-block w-8 h-8">
+                            <path d="M12 20V10M18 20V4M6 20v-4"></path>
+                        </svg>
+                        Poll
+                    </button>
+                   
+                    
+                    <button class="btn btn-primary gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="inline-block w-8 h-8">
+                        <path
+                            d="M12 2C6.48 2 2 6.48 2 12c0 5.52 4.48 10 10 10s10-4.48 10-10c0-5.52-4.48-10-10-10zm0 16l-4-6h8l-4 6zm0-10a2 2 0 1 0 0-4 2 2 0 0 0 0 4z">
+                        </path>
+                    </svg>
+
+                        GPS
+                    </button>
+
+                    
                 </div>
-        
-        
-        
-                <div>
-                    <h4><b>Location:</b> 38.15 N of Pecos Texas,US</h4>
-                    <p>Last message a few seconds ago</p>
+
+                <div class="mt-4 md:mt-0 text-center">
+              
+                    <div class="flex text-gray-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="none" d="M0 0h24v24H0z" />
+                            <path
+                                d="M12 2C8.692 2 6 4.692 6 8c0 3.528 3.684 8.684 6 14.626 2.316-5.942 6-11.098 6-14.626 0-3.308-2.692-6-6-6zm0 2a4 4 0 014 4 4 4 0 01-4 4 4 4 0 01-4-4 4 4 0 014-4zm0 7a3 3 0 100-6 3 3 0 000 6z" />
+                        </svg>
+                        
+                        <span class="text-gray-600">38.15 N of Pecos, Texas, US</span>
+                    </div>
+                    <p class="text-gray-500 text-xs">A few seconds ago</p>
                 </div>
-        
+
+
+
+
+
             </div>
-        
-            <div class="divider"></div>
+
+            </hr>
         </div>
+
 
 
 
@@ -54,23 +82,23 @@
 
             <div class="stat">
                 <div class="stat-figure text-primary">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round" class="inline-block w-8 h-8">
-                <circle cx="12" cy="12" r="10"></circle>
-                <path d="M12 8v4M12 16h.01"></path>
-            </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block w-8 h-8">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 8v4M12 16h.01"></path>
+                    </svg>
 
 
                 </div>
                 <div class="stat-title">Alarm Status</div>
-                <div class="stat-value text-primary">OFF</div>
+                <div class="stat-value text-secondary">OFF</div>
                 <div class="stat-desc">Since last month</div>
             </div>
 
             <div class="stat">
-                <div class="stat-figure text-secondary">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round" class="inline-block w-8 h-8">
+                <div class="stat-figure text-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block w-8 h-8">
                         <path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path>
                         <line x1="12" y1="2" x2="12" y2="12"></line>
                     </svg>
@@ -83,15 +111,15 @@
 
             <div class="stat">
                 <div class="stat-figure text-secondary">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round" class="inline-block w-8 h-8">
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <path d="M3 12h4l3 8 4-16 3 8h4"></path>
-                </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block w-8 h-8">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M3 12h4l3 8 4-16 3 8h4"></path>
+                    </svg>
 
                 </div>
                 <div class="stat-title">Running</div>
-                <div class="stat-value text-secondary">Manual</div>
+                <div class="stat-value text-primary">Manual</div>
                 <div class="stat-desc">Since last month</div>
             </div>
 
@@ -105,7 +133,7 @@
                     </svg>
                 </div>
                 <div class="stat-title">System</div>
-                <div class="stat-value text-secondary">Running</div>
+                <div class="stat-value text-primary">Running</div>
                 <div class="stat-desc">Since last month</div>
             </div>
 
@@ -117,7 +145,7 @@
 
                         <div class="w-16 rounded-full">
                             <img
-                                src="https://img.freepik.com/premium-vector/map-with-gps-navigation-pointer-it-finding-location-concept_78072-1011.jpg?w=2000" />
+                                src="https://static.vecteezy.com/system/resources/previews/001/265/731/original/map-with-location-pin-vector.jpg" />
 
                         </div>
                         <div class="stat-desc text-secondary">Last Location</div>
@@ -125,7 +153,7 @@
 
                     </div>
                 </div>
-                <div class="stat-value">RPM</div>
+                <div class="stat-value text-gray-600">RPM</div>
                 <div class="stat-title">RPM Set Point</div>
 
             </div>
@@ -139,15 +167,17 @@
 
 
 
-        <div class="grid lg:grid-cols-2 gap-4 mt-16">
-        
-        
-            <div>
-        
+
+
+        <div class="flex flex-col lg:grid lg:grid-cols-2 gap-4 mt-16">
+
+
+            <div  class="order-2 lg:order-1">
+
                 <div class="mb-5 ml-2">
-                    <h3 class="font-semibold text-4xl">Pump Parameters</h3>
+                    <h3 class="font-semibold text-4xl">Pumps</h3>
                 </div>
-        
+
                 <div class="grid lg:grid-cols-2 gap-4">
                     <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
                         <div class="flex flex-col text-center mb-6">
@@ -163,21 +193,21 @@
                             <img class="mx-auto max-w-full w-20 h-20" src="img/pressure.png">
                         </div>
                     </div>
-        
+
                 </div>
-        
+
             </div>
-        
-        
-        
-        
-            <div>
-        
+
+
+
+
+            <div  class="order-1 lg:order-2">
+
                 <div class="mb-5 ml-2 flex justify-between">
-                    <h3 class="font-semibold text-4xl">Comms Status</h3>
-                    <span class="badge badge-secondary">Online</span>
+                    <h3 class="font-semibold text-4xl">Communication</h3>
+                    <span class="badge badge-primary">Online</span>
                 </div>
-        
+
                 <div class="grid lg:grid-cols-3 gap-4">
                     <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
                         <div class="flex flex-col text-center mb-6">
@@ -188,42 +218,42 @@
                     </div>
                     <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
                         <div class="flex flex-col text-center mb-6">
-                            <h3>Provider / Carrier</h3>
-                            <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">53 PSI</h4>
+                            <h3>Provider</h3>
+                            <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">Iridium</h4>
                             <img class="mx-auto max-w-full w-20 h-20" src="img/carrier.png">
                         </div>
                     </div>
                     <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg h-full p-6">
                         <div class="flex flex-col text-center mb-6">
-                            <h3>Signal Strength</h3>
+                            <h3>Signal</h3>
                             <h4 class="text-xl font-bold text-gray-800 dark:text-gray-300">Good</h4>
                             <img class="mx-auto max-w-full w-20 h-20" src="img/signal.png">
                         </div>
                     </div>
-        
+
                 </div>
-        
+
             </div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
+
+
         </div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-     
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -236,7 +266,7 @@
         <div class="mt-16">
 
             <div class="mb-5 ml-2">
-                <h3 class="font-semibold text-4xl">Engine Parameters</h3>
+                <h3 class="font-semibold text-4xl">Engine</h3>
             </div>
 
 
@@ -345,7 +375,7 @@
 
 
 
-      
+
 
 
 
